@@ -30,7 +30,11 @@ section{
 }
 
 h3{
-    color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-left: 30px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .carrosel-de-filmes{
     padding-left: 20px;
@@ -39,6 +43,8 @@ h3{
 }
 .filmes{
     display: flex;
+    gap: 20px;
+    overflow-x: auto;
 }
 .filmes img{
     width: 300px;
